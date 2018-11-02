@@ -9,7 +9,7 @@ The repository contains a simple Java application which outputs the string
 main application works as expected. The results of these tests are saved to a
 JUnit XML report.
 
-## How to setup GitHub plugin in Jenkins
+## How to Setup GitHub Plugin in Jenkins
 
 1. Install `gitHub Integration` plugin from Manage Jenkins > Manage Plugins
 2. Configure github for Jenkins by going to Manage Jenkins > Confgure System
@@ -18,7 +18,7 @@ JUnit XML report.
 5. Generate access token from your github account and put it in `secret` field in jenkins
 6. Click on `Test connection` to test connection 
 
-## How to setup Jenkins pipeline
+## How to Setup Jenkins Pipeline
 
 1. Click on `New item` and enter pipeline name
 2. Under `Build Triggers` section, tick `GitHub hook trigger for GITScm polling`
@@ -30,7 +30,7 @@ JUnit XML report.
 If you use 2FA, generate your `access token` at github and enter it in the password field. 
 However, if your repository is public, you can even proceed without setting up credential.
 
-## How to run Jenkins docker container in AWS Elastic Container Service (ECS)
+## How to Run Jenkins Docker Container in AWS Elastic Container Service (ECS)
 
 1. Create repository in Elastic Container Repository (ECR)
 2. Follow the push command in ECR in order to login, build, tag and push docker image to ECR
